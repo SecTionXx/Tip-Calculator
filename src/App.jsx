@@ -88,7 +88,7 @@ function App() {
             className="w-[500px]"
             onClick={handleOnclick}
           />
-          <p className="p-4">Total : {formattedTotal}</p>
+          <p className="p-12 text-[24px] ">Total : {formattedTotal}</p>
         </content>
       </body>
     </>
