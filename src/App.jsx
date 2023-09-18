@@ -39,9 +39,9 @@ const BasicTextFields = (props) => {
 };
 
 function App() {
-  const [billAmount, setBillAmount] = useState(0);
-  const [tipPercentage, setTipPercentage] = useState(0);
-  const [total, setTotal] = useState(0);
+  const [billAmount, setBillAmount] = useState();
+  const [tipPercentage, setTipPercentage] = useState();
+  const [total, setTotal] = useState();
 
   const handleBillAmountChange = (event) => {
     setBillAmount(event.target.value);
